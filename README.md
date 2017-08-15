@@ -62,6 +62,8 @@ brew cask install macdown
 brew cask install cheatsheet
 brew cask install alfred
 brew cask install java
+brew cask install sublime-text
+brew cask install webstorm
 ```
 
 ## 创建大小写敏感的工作区
@@ -115,4 +117,9 @@ ssh-add -K ~/.ssh/id_rsa
 ```
 echo '# nvm\nexport NVM_DIR="$HOME/.nvm"\n. "/usr/local/opt/nvm/nvm.sh"' >> ~/.zshrc
 echo 'export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node' >> ~/.zshrc
+```
+
+## Git 设置
+```
+git config --global alias.up 'pull --rebase --autostash'
 ```
